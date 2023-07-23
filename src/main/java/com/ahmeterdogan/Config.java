@@ -23,4 +23,9 @@ public class Config {
         System.out.println("Config.str()");
         return "hello spring";
     }
+
+    @Bean
+    public BeanE beanE() {
+        return new BeanE("autowired in no component class ex");
+    }
 }
