@@ -13,7 +13,12 @@ public class BeanD {
     @Lazy
     public BeanD(BeanC beanC) {
         System.out.println("D(C c)");
-        beanC.doSth(); //sen bunu demeyene kadar C() çalışmadı dikkat proxt pattern kullanılıyor
+        //beanC.doSth();
+        /*
+         sen bunu demeyene kadar C() çalışmadı dikkat proxt pattern kullanılıyor runtime'da BeanC'yi
+         extend eden bir sınıf oluşuyor ve o buraya geçiliyo. ne zamanki Cyi kullanmaya kalktın o zaman
+         load ediliyor.
+         */
         this.beanC = beanC;
     }
 
