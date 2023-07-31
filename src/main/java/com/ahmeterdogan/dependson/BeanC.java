@@ -1,4 +1,4 @@
-package dependson;
+package com.ahmeterdogan.dependson;
 
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.context.annotation.Lazy;

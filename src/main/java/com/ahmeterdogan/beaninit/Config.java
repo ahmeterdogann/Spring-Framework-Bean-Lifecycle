@@ -1,9 +1,7 @@
-package beaninit;
+package com.ahmeterdogan.beaninit;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import java.sql.SQLOutput;
 
 @Configuration
 public class Config {

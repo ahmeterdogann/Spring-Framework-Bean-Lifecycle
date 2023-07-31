@@ -1,4 +1,4 @@
-package beaninit;
+package com.ahmeterdogan.beaninit;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

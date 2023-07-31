@@ -1,4 +1,4 @@
-package order;
+package com.ahmeterdogan.order;
 
 
 public class Order5 implements OrderableBean{

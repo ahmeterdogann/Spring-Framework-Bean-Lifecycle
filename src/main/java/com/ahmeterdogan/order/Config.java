@@ -1,4 +1,4 @@
-package order;
+package com.ahmeterdogan.order;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

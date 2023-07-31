@@ -1,4 +1,4 @@
-package beaninit;
+package com.ahmeterdogan.beaninit;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
