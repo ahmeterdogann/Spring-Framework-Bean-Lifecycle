@@ -32,6 +32,6 @@ public class App {
         xmlApplicationContext.setConfigLocation("file:/Users/ahmeterdog4n/Desktop/MySpace/IT/IdeaProjects/SpringFrameworkBeanLifecycle/src/main/java/com/ahmeterdogan/eventandnotifications/refresh/refreshconfig.xml");
         xmlApplicationContext.refresh();
         BeanB b2 = (BeanB) xmlApplicationContext.getBean("beanB");
-        System.out.printf("BURAYA DİKKAT xml config contexte refresh sonrası farklı bean geldi b1 == b2 -> %b", b1 == b2);
+        System.out.printf("BURAYA DİKKAT xml config contexte refresh sonrası farklı bean geldi (b singleton olmasına rağmen) b1 == b2 -> %b", b1 == b2);
     }
 }
